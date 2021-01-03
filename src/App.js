@@ -19,7 +19,7 @@ export default function App() {
         <p>Hosted by Netlify</p>
         <p>
           GitHub repo can be found
-          <a href="https://github.com/takodil/weather-shecodes" target="_blank">
+          <a href="https://github.com/takodil/weather-shecodes">
             here
           </a>
         </p>
