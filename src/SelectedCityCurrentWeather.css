@@ -1,0 +1,17 @@
+.today .temp {
+  font-size: 80px;
+}
+.units {
+  font-size: 15px;
+  vertical-align: top;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+img {
+  width: 150px;
+}
+.today h3 {
+  font-size: 22px;
+}

@@ -1,0 +1,10 @@
+.weather-forecast h3 {
+  font-size: 18px;
+  color: rgb(155, 153, 153);
+}
+.weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}

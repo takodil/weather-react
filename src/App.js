@@ -1,17 +1,29 @@
 import './App.css';
-import Weather from "./Weather.js"
+// import Weather from "./Weather.js"
+import CitySearchForm from "./CitySearchForm";
+import SelectedCity from "./SelectedCity";
+import ForcastGroup from "./ForcastGroup";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Hello World
-        </h1>
-        <Weather city="Berlin"/>
-      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <CitySearchForm />
+            <SelectedCity />
+            <hr />
+            <ForcastGroup />
+          </div>
+        </div>
+        <p>Hosted by Netlify</p>
+        <p>
+          GitHub repo can be found
+          <a href="https://github.com/takodil/weather-shecodes" target="_blank">
+            here
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
-
-export default App;
