@@ -14,11 +14,11 @@ export default function SelectedCityCurrentWeather(props) {
               {props.temp}
             </strong>
             <span className="units">
-              <a href="#" id="celcius-link" className="active">
+              <a href="/" id="celcius-link" className="active">
                 °C
               </a>{" "}
               |
-              <a href="#" id="fahrenheit-link">
+              <a href="/" id="fahrenheit-link">
                 °F
               </a>
             </span>
