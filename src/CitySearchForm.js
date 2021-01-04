@@ -5,7 +5,7 @@ export default function CitySearchForm() {
   return (
     <div className="row">
       <form>
-        <div class="form-group">
+        <div className="form-group">
           <input
             type="text"
             className="search-input mb-3"
